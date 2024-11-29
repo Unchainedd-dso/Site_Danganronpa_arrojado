@@ -1,0 +1,76 @@
+@font-face{
+    font-family: danganronpa_font;
+    src:url(./fonts/goodbyeDespair.ttf)
+}
+
+*{
+    font-family: Roboto, sans-serif;
+}
+
+.cor-textos,
+.navbar-brand:hover,
+.botao-danganronpa:hover{
+    color:#d6358d
+}
+
+.font-titles{
+    font-family: danganronpa_font, Impact;
+}
+
+header{
+    background-color: #b8b7b8;
+}
+
+.nav-item .nav-link{
+    color: #740a43 ;
+}
+
+/* Troca a cor do ícone de navegação para #740a43 */
+.carousel-control-prev-icon {
+    background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" fill="%23740a43" viewBox="0 0 16 16"><path d="M11.354 1.354a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/></svg>');
+}
+
+.carousel-control-next-icon {
+    background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" fill="%23740a43" viewBox="0 0 16 16"><path d="M4.646 1.354a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/></svg>');
+}
+
+#localizações,
+#fale-conosco{
+    background-color: #f8e2ed;
+}
+
+#personagens .nav-link.active,
+.navbar .nav-link.active,
+.btn-form{
+    background-color: #d6358d;
+}
+
+.navbar .nav-link.active{
+    color:white;
+}
+
+.icones-redes{
+    list-style: none;
+    display: inline;
+    text-decoration: none;
+}
+
+form textarea{
+    resize: none;
+    height: 140px;
+}
+
+.btn-form{
+    color: white;
+}
+
+.btn-form:hover{
+    background-color: #740a43;
+    color: white;
+}
+
+/* .color1 { #d6358d };
+.color2 { #e29dc0 };
+.color3 { #740a43 };
+.color4 { #998654 };
+.color5 { #b8b7b8 }; */
